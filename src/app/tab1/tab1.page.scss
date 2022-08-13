@@ -1,0 +1,39 @@
+.swiper-slide-active {
+    transform: scale(1.05, 1.05);
+  
+    ion-card {
+        img {
+            transform: scale(1, 1);
+        }
+    }
+  }
+  
+  .swiper-slide {
+    transition: 600ms all ease-in-out;
+  }
+  
+
+  
+.slide-card{
+    box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.4); 
+    --background: linear-gradient(rgb(27, 138, 110), rgb(21, 105, 136) 195%);
+  
+    ion-card-header{
+      margin-top: 10px;
+    }
+    ion-card-title{
+      font-size:17px; 
+      font-weight:bold; 
+      color: white;
+      margin-top: 10px;
+    }
+    ion-card-subtitle{
+      color: white;
+      font-weight:lighter; 
+    }
+    ion-img{
+      width:100% !important; 
+      height: auto !important; 
+    }
+  }
+  
